@@ -331,3 +331,51 @@ print(age)"""
 tuple.index(elem) --shows index of elem
 tuple.count(elem) --counts how many times elem occur in tuple
 """
+
+#Set
+"""
+Set stores only unique values.
+Set automatically removes duplicates and has no guaranteed order.
+Set is immutable.
+"""
+#Set Operations
+"""
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+a | b   # Union          → {1,2,3,4,5,6}
+a & b   # Intersection   → {3,4}
+a - b   # Difference     → {1,2}
+a ^ b   # Symmetric diff → {1,2,5,6}
+"""
+#Set Methods
+"""set.add(elem) -- Adds an elem to set
+set.clear()   -- Removes all the elements from the set
+set.copy()    -- Returns copy of set
+
+difference() --
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+a.difference(b) -- removes common element from the set
+                -- a = {1,2}
+b.difference(a) -- b = {5,6}
+also written as 'a-b' and 'b-a'
+
+difference_update() -- 
+a.difference_update()
+
+discard() -- Removes the specified item from set
+intersection() '&' -- Returns set that is intersection of two other sets
+intersection_update() '&=' -- Removes the items of set which are not present in other specified set
+isdisjoint() -- Returns true if no items of set is present in another set
+issubset() '<=' -- Returns true if all items of set is present in another set
+           '<' -- for larger set 
+issuperset() '>=' -- Returns true if all items of another set is present in set
+             '>' -- for smaller set   
+pop() -- Removes random element of set
+remove() -- Removes specified element
+symmetric_difference() '^' -- Returns set with symmetric differences of two sets in other words it removes common elements and return uncommon elements of both sets in a single set
+ymmetric_difference_update() '^=' -- Inserts the symmetric differences from set to another
+union() '|' -- Return set containing union of sets
+update() '|=' -- Update the set with union of set and other
+"""
