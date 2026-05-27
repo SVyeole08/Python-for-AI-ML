@@ -369,13 +369,97 @@ intersection() '&' -- Returns set that is intersection of two other sets
 intersection_update() '&=' -- Removes the items of set which are not present in other specified set
 isdisjoint() -- Returns true if no items of set is present in another set
 issubset() '<=' -- Returns true if all items of set is present in another set
-           '<' -- for larger set 
+           '<' -- for larger set
 issuperset() '>=' -- Returns true if all items of another set is present in set
-             '>' -- for smaller set   
+             '>' -- for smaller set
 pop() -- Removes random element of set
 remove() -- Removes specified element
 symmetric_difference() '^' -- Returns set with symmetric differences of two sets in other words it removes common elements and return uncommon elements of both sets in a single set
 ymmetric_difference_update() '^=' -- Inserts the symmetric differences from set to another
 union() '|' -- Return set containing union of sets
 update() '|=' -- Update the set with union of set and other
+"""
+
+#Dictionary
+"""
+A dictionary stores data as key: value pairs
+
+d = {32:23,30:200,40:400}
+d[50] = 500 -- creating a new key value pair
+d[32] = 100 -- updating a key value that already exist
+"""
+
+#Dictionary Methods
+"""
+d={10:290,20:345,30:343}
+d.clear() -- Removes all the elements from the set
+d.copy() -- Returns copy of dictionary
+d.fromkeys() -- Returns dictionary with the specified keys and values
+             -- q=d.fromkeys([12, 20, 23],234)  q={12:234, 20: 234, 23:234}
+d.get() -- Returs the value of specified keys and value
+d.items() -- Returns a list containing a tuple for each key value pair 
+          -- dict_items([(10, 290), (20, 345), (30, 343)])
+d.keys() -- Returns the list containing dictionary's keys
+         -- dict_keys([10, 20, 30])
+d.pop() -- Removes the element with specified key
+d.popitem() -- Removes the last inserted key-value pair
+d.setdefault() -- Returns value of specified key, if key doesn't exist insert the key with specified value
+               -- d.setdefault(60:23432) 
+               -- d = {10:290,20:345,30:343,60:23432}
+d.update() -- Update the dictionary with specified key-value pair
+           -- d.update({10:330}) == d = {10:330,20:345,30:343}
+           -- d.update({55:234}) == d = {10:290,20:345,30:343,55:234}
+d.values() -- Return a list of all values in the dictionary
+"""
+
+#Traversing of Dictionary (loops)
+"""
+d = {10:100,20:200,30:300,40:400}
+for i in d:
+    print(f"key {i} : value {d[i]}")
+"""
+
+#1.
+"""
+d1 = {'a':10,'b':20,'c':30}
+d2 = {'d':40,'f':50,'e':60}
+
+for i in d2:
+    d1[i] = d2[i]
+
+print(d1)
+"""
+
+#2.
+"""
+d = {"a":10,"b":20,"c":30}
+sum = 0
+for i in d:
+    sum += d[i]
+
+print(sum)
+"""
+
+#3.
+"""
+l = ['a','b','a','c','b','a']
+d = {}
+for i in l:
+    if i in d.keys():
+        d[i]+=1
+    else:d[i]=1
+print(d)
+"""
+
+#4.
+"""
+d1={"a":5,"b":3}
+d2={"b":4,"c":2}
+
+for i in d2:
+    if i in d1.keys():
+        d1[i] += d2[i]
+    else:
+        d1[i] = d2[i]
+print(d1)
 """
