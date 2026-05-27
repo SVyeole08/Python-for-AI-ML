@@ -471,7 +471,6 @@ TabError — mixing tabs/spaces
 """
 
 #Exception Handling
-#ZeroDivisionError:
 """
 a = int(input("Enter the first number:-"))
 b = int(input("Enter the second number:-"))
@@ -496,4 +495,27 @@ age = int(input("Enter you age:-"))
 if age<18:
     raise TypeError("You are not eligible") -- raise is used to throw error from our side
 print("You are eligible")
+"""
+
+#File Handling
+#file modes:
+"""
+'r'	    Read only	           file must exist
+'w'	    Write (overwrites!)	   can create file and write inside it
+'a'	    Append to end	       can add inside the file
+'x'	    Create                 only created file
+"""
+
+#Reading and writing:
+"""
+with open("python.txt","w") as f:
+    f.write("Can create file named in path andwrite inside the it as well")
+
+with open("python.txt","r") as f:
+    print(f.read()) -- only show the content inside the file
+
+with open("python.txt","a") as f:
+    f.write(" can append by the mode 'a'")
+
+with closes the file automatically even if an error occurs.
 """
