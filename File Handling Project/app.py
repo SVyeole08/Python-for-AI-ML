@@ -1,5 +1,4 @@
 from pathlib import Path
-import os
 
 def createFile():
     name = input("Enter the file name you want to create:-")
