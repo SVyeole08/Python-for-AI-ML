@@ -463,3 +463,37 @@ for i in d2:
         d1[i] = d2[i]
 print(d1)
 """
+#Errors (unfixable)
+"""
+SyntaxError — wrong syntax
+IndentationError — bad spacing
+TabError — mixing tabs/spaces
+"""
+
+#Exception Handling
+#ZeroDivisionError:
+"""
+a = int(input("Enter the first number:-"))
+b = int(input("Enter the second number:-"))
+print(a/b) -- if in input value of b given zero then ZeroDivisionError occur and next code will not run.
+
+For handling this error we use try as follow -
+try:
+    print(a/b) 
+except Exception as err:    --  Handles the exception
+    print(f"An error occurred due to {err}")
+finally:     -- Always runs
+    print("I will always run no matter error occurred or not")
+else:        -- Runs only if no exception occurred
+    print("No errors occurred")
+
+name = input("Enter your name")
+print(f"Your name is {name}")
+"""
+ 
+"""
+age = int(input("Enter you age:-"))
+if age<18:
+    raise TypeError("You are not eligible") -- raise is used to throw error from our side
+print("You are eligible")
+"""
