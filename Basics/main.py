@@ -35,7 +35,7 @@ import random
 # else :print("Your are not eligibile to vote.")
 
 
-#1.
+# 1.
 """
 n1 = int(input("Enter first number:"))
 n2 = int(input("Enter second number:"))
@@ -44,7 +44,7 @@ if n1>n2:
 else:print(f"{n2} is greater")
 """
 
-#2.
+# 2.
 """
 gen = input("Enter your Gender(M/F):-")
 if gen == "M":
@@ -55,12 +55,12 @@ else:
     print("Please enter valid gender type.")
 """
 
-#3.
+# 3.
 """num = int(input("Enter the number:-"))
 if num%2==0:print(f"{num} is even")
 else:print(f"{num} is odd")"""
 
-#4.
+# 4.
 """name = input("Enter your name:-")
 age = int(input("Enter your age:-"))
 if age>=18 :
@@ -68,7 +68,7 @@ if age>=18 :
 else:
     print(f"Hello {name}, you are not valid voter")"""
 
-#5.
+# 5.
 """year = int(input("Enter the year:-"))
 if year%400 == 0 and year%100==0: 
     print(f"{year} is a leap year")
@@ -76,7 +76,7 @@ elif year%100!=0 and year%4==0:
     print(f"{year} is a leap year")
 else : print(f"{year} is not leap year")"""
 
-#6.
+# 6.
 """temp = int(input("Enter temperature:-"))
 if temp<=0:
     print("Freezing Cold")
@@ -91,41 +91,41 @@ else : print("Very hot")"""
 for i in range(n,n*10+1,n):
     print(i)"""
 
-#1.
+# 1.
 """n=int(input("Enter number:-"))
 for i in range(n):
     print("Hello world")"""
 
-#2.
+# 2.
 """n=int(input("Enter number:-"))
 for i in range(1,n+1):
     print(i)"""
 
-#3.
+# 3.
 """n=int(input("Enter number:-"))
 for i in range(n,0,-1):
     print(i)"""
 
-#4.
+# 4.
 """n=int(input("Enter number:-"))
 for i in range(1,11):
     print(f"{n} * {i} = {i*n}")"""
 
-#5.
+# 5.
 """a=0
 n=int(input("Enter number:-"))
 for i in range(1,n+1):
     a=a+i
 print(f"Sum = {a}")"""
 
-#6.
+# 6.
 """a=1
 n=int(input("Enter number:-"))
 for i in range(1,n+1):
     a=a*i
 print(f"{n}! = {a}")    """
 
-#7.
+# 7.
 """n=int(input("Sum will start from "))
 m=int(input("to "))
 
@@ -139,12 +139,12 @@ for j in range(n-1,m+1,2):
     evensum = evensum + j
 print(f"Evensum = {evensum}")"""
 
-#8.
+# 8.
 """n=int(input("Enter the number:-"))
 for i in range(1,n+1):
     if n%i==0:print(i)"""
 
-#9.
+# 9.
 """n=int(input("Enter the number:-"))
 s=0
 for i in range(1,n):
@@ -153,7 +153,7 @@ for i in range(1,n):
 if s==n:print(f"{n} is perfect number") 
 else : print(f"{n} is not perfect number")"""
 
-#10.
+# 10.
 """n=int(input("Enter your number:-"))
 count = 0
 for i in range(1,n+1):
@@ -163,19 +163,19 @@ if count == 2:
             print(f"{n} is prime number")
 else : print(f"{n} is composite number")"""
 
-#11.
+# 11.
 """str = input("Enter the word:-")
 a=str[::-1]
 print(a)"""
 
-#12.
+# 12.
 """str = input("Enter the word:-")
 a=str[::-1]
 if str==a:
     print(f"{str} is a palindrome")
 else : print(f"{str} is not a palindrome")"""
 
-#13.
+# 13.
 """str=input("Enter the word:-")
 char=0
 dig=0
@@ -190,14 +190,14 @@ for i in str:
 
 print("Character = ",char,'Digits = ',dig,'Special characters = ',spe)"""
 
-#While loop
-#1.
+# While loop
+# 1.
 """n= int(input("Enter the number"))
 while n!=0:
     print(n%10)
     n = n//10"""
 
-#2.
+# 2.
 """n=int(input("Enter the number:-"))
 rev = 0
 while n!=0:
@@ -206,7 +206,7 @@ while n!=0:
 
 print(rev)"""
 
-#3.
+# 3.
 """n=int(input("Enter the number:-"))
 a=n
 rev = 0
@@ -217,8 +217,8 @@ if rev==n:
     print(f"{n} is palindrome")
 else : print(f"{n} is not palindrome")"""
 
-#Data structure
-#List
+# Data structure
+# List
 """
 List is type of Data structure used to store multiple values in a single variable.
 Lists are mutable.
@@ -239,7 +239,7 @@ list.reverse()
 list.remove(4)
 print(list)"""
 
-#1.
+# 1.
 """l = [53,-1,46,-64,6546,-546,-5556,-5,9]
 pos = []
 neg = []
@@ -261,7 +261,7 @@ for i in l:
 avg = sum/len(l)
 print(avg)"""
 
-#3.
+# 3.
 """l = [4, 8, 2, 9, 1]
 large = l[0]
 index = 0
@@ -271,7 +271,7 @@ for i in range(len(l)):
         index = i
 print(f"Greatest = {large} at index {index}")"""
 
-#4.
+# 4.
 """l = [4, 8, 2, 9, 1]
 copy = l
 large = copy[0]
@@ -296,7 +296,7 @@ for i in l:
         large = i
 print(f"Second greatest = {sec_large}")"""
 
-#4.
+# 4.
 """l=[1,3,4,5,7,12,53]
 for i in range(len(l)-1):
     if l[i] > l[i+1]:
@@ -304,7 +304,7 @@ for i in range(len(l)-1):
         break
 else: print("Your list is sorted")"""
 
-#Tuple
+# Tuple
 """
 Tuple is type of Data structure also used to store different kinds of data.
 Tuple is immutable.
@@ -326,19 +326,19 @@ name, age,email = info
 print(name)
 print(age)"""
 
-#Tuple methods
+# Tuple methods
 """
 tuple.index(elem) --shows index of elem
 tuple.count(elem) --counts how many times elem occur in tuple
 """
 
-#Set
+# Set
 """
 Set stores only unique values.
 Set automatically removes duplicates and has no guaranteed order.
 Set is immutable.
 """
-#Set Operations
+# Set Operations
 """
 a = {1, 2, 3, 4}
 b = {3, 4, 5, 6}
@@ -348,7 +348,7 @@ a & b   # Intersection   → {3,4}
 a - b   # Difference     → {1,2}
 a ^ b   # Symmetric diff → {1,2,5,6}
 """
-#Set Methods
+# Set Methods
 """set.add(elem) -- Adds an elem to set
 set.clear()   -- Removes all the elements from the set
 set.copy()    -- Returns copy of set
@@ -380,7 +380,7 @@ union() '|' -- Return set containing union of sets
 update() '|=' -- Update the set with union of set and other
 """
 
-#Dictionary
+# Dictionary
 """
 A dictionary stores data as key: value pairs
 
@@ -389,7 +389,7 @@ d[50] = 500 -- creating a new key value pair
 d[32] = 100 -- updating a key value that already exist
 """
 
-#Dictionary Methods
+# Dictionary Methods
 """
 d={10:290,20:345,30:343}
 d.clear() -- Removes all the elements from the set
@@ -412,14 +412,14 @@ d.update() -- Update the dictionary with specified key-value pair
 d.values() -- Return a list of all values in the dictionary
 """
 
-#Traversing of Dictionary (loops)
+# Traversing of Dictionary (loops)
 """
 d = {10:100,20:200,30:300,40:400}
 for i in d:
     print(f"key {i} : value {d[i]}")
 """
 
-#1.
+# 1.
 """
 d1 = {'a':10,'b':20,'c':30}
 d2 = {'d':40,'f':50,'e':60}
@@ -430,7 +430,7 @@ for i in d2:
 print(d1)
 """
 
-#2.
+# 2.
 """
 d = {"a":10,"b":20,"c":30}
 sum = 0
@@ -440,7 +440,7 @@ for i in d:
 print(sum)
 """
 
-#3.
+# 3.
 """
 l = ['a','b','a','c','b','a']
 d = {}
@@ -451,7 +451,7 @@ for i in l:
 print(d)
 """
 
-#4.
+# 4.
 """
 d1={"a":5,"b":3}
 d2={"b":4,"c":2}
@@ -463,14 +463,14 @@ for i in d2:
         d1[i] = d2[i]
 print(d1)
 """
-#Errors (unfixable)
+# Errors (unfixable)
 """
 SyntaxError — wrong syntax
 IndentationError — bad spacing
 TabError — mixing tabs/spaces
 """
 
-#Exception Handling
+# Exception Handling
 """
 a = int(input("Enter the first number:-"))
 b = int(input("Enter the second number:-"))
@@ -489,7 +489,7 @@ else:        -- Runs only if no exception occurred
 name = input("Enter your name")
 print(f"Your name is {name}")
 """
- 
+
 """
 age = int(input("Enter you age:-"))
 if age<18:
@@ -497,8 +497,8 @@ if age<18:
 print("You are eligible")
 """
 
-#File Handling
-#file modes:
+# File Handling
+# file modes:
 """
 'r'	    Read only	           file must exist
 'w'	    Write (overwrites!)	   can create file and write inside it
@@ -506,7 +506,7 @@ print("You are eligible")
 'x'	    Create                 only created file
 """
 
-#Reading and writing:
+# Reading and writing:
 """
 with open("python.txt","w") as f:
     f.write("Can create file named in path andwrite inside the it as well")

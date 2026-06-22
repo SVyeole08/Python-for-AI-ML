@@ -6,14 +6,14 @@ Comprehensive collection of Python learning examples and exercises covering fund
 
 ## 📋 Table of Contents
 
-1. [String Manipulation](#string-manipulation)
-2. [Type Conversion](#type-conversion)
-3. [Input/Output & F-strings](#inputoutput--f-strings)
-4. [Conditional Statements](#conditional-statements)
-5. [Loops](#loops)
-6. [Data Structures](#data-structures)
-7. [Exception Handling](#exception-handling)
-8. [File Handling](#file-handling)
+1. String Manipulation
+2. Type Conversion
+3. Input/Output & F-strings
+4. Conditional Statements
+5. Loops
+6. Data Structures
+7. Exception Handling
+8. File Handling
 
 ---
 
@@ -72,14 +72,14 @@ Comprehensive collection of Python learning examples and exercises covering fund
 
 Used to execute code based on conditions.
 
-| Problem | Description |
-|---------|-------------|
-| Compare Numbers | Find greater number |
-| Gender Greeting | Greeting based on gender |
-| Even/Odd Check | Determine even or odd |
-| Voter Eligibility | Check if age >= 18 |
-| Leap Year Detection | Identify leap year |
-| Temperature Categories | Classify temperature |
+| Problem                | Description              |
+| ---------------------- | ------------------------ |
+| Compare Numbers        | Find greater number      |
+| Gender Greeting        | Greeting based on gender |
+| Even/Odd Check         | Determine even or odd    |
+| Voter Eligibility      | Check if age >= 18       |
+| Leap Year Detection    | Identify leap year       |
+| Temperature Categories | Classify temperature     |
 
 ### Leap Year Logic
 
@@ -307,7 +307,7 @@ if age < 18:
 print("You are eligible")
 ```
 
-**Error Types**
+### Error Types
 
 **Unfixable Errors (Cannot catch):**
 
@@ -330,12 +330,12 @@ print("You are eligible")
 
 ### File Modes
 
-| Mode | Purpose | File Behavior | Description |
-|------|---------|---------------|-------------|
-| `'r'` | Read | Must exist | Read file |
-| `'w'` | Write | Create/overwrite | Write file |
-| `'a'` | Append | Create if needed | Add to file |
-| `'x'` | Create | Create only | Create new file |
+| Mode  | Purpose | File Behavior    | Description     |
+| ----- | ------- | ---------------- | --------------- |
+| `'r'` | Read    | Must exist       | Read file       |
+| `'w'` | Write   | Create/overwrite | Write file      |
+| `'a'` | Append  | Create if needed | Add to file     |
+| `'x'` | Create  | Create only      | Create new file |
 
 ### Reading and Writing (Using `with` statement)
 
