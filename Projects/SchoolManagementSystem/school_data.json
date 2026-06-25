@@ -9,6 +9,16 @@
             "grades": {
                 "Physics": 30
             }
+        },
+        {
+            "roll_no": 2,
+            "name": "SARVADNYA VITTHAL YEOLE",
+            "age": 17,
+            "mob_no": "",
+            "email": "",
+            "grades": {
+                "physics": 74
+            }
         }
     ],
     "teachers": [
@@ -25,6 +35,13 @@
             "age": 24,
             "mob_no": 234522,
             "email": "afasf@asd asdf.asdfas"
+        },
+        {
+            "reg_no": 3,
+            "name": "Sarvadnya Yeole",
+            "age": 30,
+            "mob_no": "",
+            "email": ""
         }
     ]
 }

@@ -236,3 +236,16 @@ name = ["Alice", "Bob", "Charlie", "David", "Eve"]
 age = [25, 30, 35, 40, 45]
 people = list(zip(name, age))
 print(people)
+
+# Modules and Packages
+print()
+print("Modules and Packages: ")
+# Modules are files containing Python code that can be imported and used in other Python programs.
+# Packages are collections of modules organized in directories.
+
+# I have created a module named maths.py in the same directory as this file. It contains two functions: addition and substraction. I will import this module and use its functions.
+
+import maths
+
+print(maths.addition(20, 34))  # Function of module maths is called and after running the code, it will return 54
+print(maths.substraction(34, 30))  # Return 4
