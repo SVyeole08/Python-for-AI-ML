@@ -239,13 +239,30 @@ print(people)
 
 # Modules and Packages
 print()
-print("Modules and Packages: ")
+print("Modules: ")
 # Modules are files containing Python code that can be imported and used in other Python programs.
 # Packages are collections of modules organized in directories.
 
 # I have created a module named maths.py in the same directory as this file. It contains two functions: addition and substraction. I will import this module and use its functions.
 
-import maths
+import maths  # Way to import modules
 
-print(maths.addition(20, 34))  # Function of module maths is called and after running the code, it will return 54
+print(
+    maths.addition(20, 34)
+)  # Function of module maths is called and after running the code, it will return 54
 print(maths.substraction(34, 30))  # Return 4
+
+print()
+print("Packages: ")
+# I have created a package named Models in the same directory as this file. It contains a module named hello.py. I will import this package and use its functions.
+
+from Models import hello  # Way to import packages
+
+hello.hello()  # Function of package hello is called and after running the code, it will return "Hello from hello.py"
+
+# If there is another package in Models then we import it like this:
+from Models.model import dummy 
+
+dummy.dummy()  # Function of package dummy is called and after running the code, it will return "Hello from dummy.py"
+
+# There are big modules and packages named NumPy, Pandas, MatplotLib, Seaborn, etc.
