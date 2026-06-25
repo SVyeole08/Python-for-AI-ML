@@ -1,4 +1,4 @@
-# <img align="center" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="70" alt="Python Logo"/> Python for AI & ML
+# <img align="center" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo"/> Python for AI & ML
 
 > **A structured, code-first journey through Python—building a strong programming foundation for Data Science, Machine Learning, and AI.**
 
@@ -86,6 +86,39 @@ Python-for-AI-ML/
 
 ---
 
+# Featured Projects
+
+## 🏦 Bank Management System
+
+A command-line banking application built with Python that simulates basic banking operations while demonstrating clean code organization and file-based data persistence.
+
+### Features
+
+- 💳 Create new bank accounts
+- 💰 Deposit and Withdraw money
+- 📄 View account details
+- 💾 Store data using JSON
+- 🧩 Modular Python architecture
+
+**Tech Stack:** `Python` • `JSON` • `OOP`
+
+---
+
+## 🏫 School Management System
+
+A Python-based management system designed to organize and manage student records using Object-Oriented Programming concepts.
+
+### Features
+
+- 👨‍🎓 Add and manage student records
+- 📝 Store student information
+- 💾 JSON-based data storage
+- 🧩 Modular project structure
+
+**Tech Stack:** `Python` • `JSON`• `OOP`
+
+---
+
 ## 🛠️ Tech Stack
 
 <p>
@@ -110,9 +143,9 @@ This repository also includes:
 * ✅ Basic Modules
 * 🔄 Advanced Python
 * ⏳ NumPy
-* ⏳ Statistics
 * ⏳ Pandas
 * ⏳ Matplotlib
+* ⏳ Statistics
 * ⏳ SQL
 * ⏳ Machine Learning
 
