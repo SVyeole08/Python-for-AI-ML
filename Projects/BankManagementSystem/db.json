@@ -1,0 +1,12 @@
+{
+    "accounts": [
+        {
+            "acc_no": 1,
+            "name": "bindok",
+            "age": 22,
+            "mob": 2456354323,
+            "email": "bindok@chaman.chivda",
+            "balance": 49
+        }
+    ]
+}
